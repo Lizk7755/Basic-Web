@@ -1,0 +1,180 @@
+*{  
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+
+
+/*------------HEADER------------*/
+.header {
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+}
+.logo {
+    grid-column: 1 - 2;
+    height: 100px;
+    margin: 5px;
+}
+.initial-title {
+    font-family: 'Michroma';
+    font-size: 20px;
+    grid-column: 2 - 3;
+    color: white;
+    justify-self: center;
+    align-self: center;
+}
+.buttons {
+    grid-column: 3 - 4;
+    align-self: center;
+    justify-self: end;
+    margin: 20px;
+}
+.signin {
+    font-family: 'Michroma';
+    font-size: 12px;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    background-color: black;
+    margin: 10px;
+}
+.signin:hover {
+    color: black;
+    background-color: white;
+}
+.signup {
+    font-family: 'Michroma';
+    font-size: 12px;
+    color: white;
+    padding: 8px 15px 8px 15px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    background-color: black;
+}
+.signup:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/*------------NAV BAR------------*/
+.container{
+    border-top: 3px;
+    border-bottom: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    padding: 15px;
+}
+.menu-container{
+    display: grid;
+    grid-template-columns: 20% 20% 20 20% 20%;
+    align-items: center;
+    font-size: 0.85em;
+    list-style-type: none;
+}
+.menu-container .inicio{
+    margin-left: 60px;
+    justify-self: start;
+    grid-column-start: 1;
+}
+.menu-container .team{
+    justify-self: center;
+    grid-column-start: 2;
+}
+.menu-container .eventos{
+    justify-self: center;
+    grid-column-start: 3;
+}
+.menu-container .patrocinadores{
+    margin-left: 10px;
+    justify-self: center;
+    grid-column-start: 4;
+}
+.menu-container .contacto{
+    justify-self: center;
+    grid-column-start: 5;
+}
+.menu-container li a {
+    font-family:'Electrolize';
+    color: white;
+}
+
+
+/*-----------CONTENT-----------*/
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#fondo {
+    grid-column: 1 - 4;
+    opacity: 70%;
+}
+.parrafo-uno {
+    align-self: center;
+    width: 280px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 23px;
+    color: white;
+    margin-left: 80px;
+    position: absolute;
+}
+.parrafo-dos {
+    justify-self: end;
+    align-self: center;
+    width: 250px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 23px;
+    color: white;
+    margin-right: 40px;
+    position: absolute;
+}
+
+
+/*------------FOOTER------------*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.yo-name {
+    display: flex;
+    flex-direction: row;
+}
+.dragon {
+    width: 50px;
+}
+.dev {
+    font-size: 18px;
+    color: white;
+    align-self: center;
+}
+.rights {
+    color: white;
+    align-self: center;
+}
+.location {
+    color: white;
+    align-self: center;
+}
