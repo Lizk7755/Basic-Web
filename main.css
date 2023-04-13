@@ -66,6 +66,12 @@ body {
     background-color: white;
 }
 
+@media (max-width: 723px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 /*------------NAV BAR------------*/
 .container{
@@ -80,13 +86,12 @@ body {
 }
 .menu-container{
     display: grid;
-    grid-template-columns: 20% 20% 20 20% 20%;
     align-items: center;
     font-size: 0.85em;
     list-style-type: none;
 }
 .menu-container .inicio{
-    margin-left: 60px;
+    
     justify-self: start;
     grid-column-start: 1;
 }
@@ -118,6 +123,9 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+
+
 #fondo {
     grid-column: 1 - 4;
     opacity: 70%;
